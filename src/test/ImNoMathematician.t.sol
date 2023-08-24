@@ -11,6 +11,7 @@ contract ImNoMathematicianTest is BaseTest {
         underTest = new ImNoMathematician();
     }
 
+    // It is rounded up
     function test_getVRR_thenShouldSucceed() external {
         assertEq(underTest.getVRR(0.9 ether), 20000);
         assertEq(underTest.getVRR(0.95 ether), 20000);

@@ -28,7 +28,7 @@ contract ChampionOfTheHillTest is BaseTest {
     /*
     TODO : Do your test, you should have a coverage of 95%+
 
-    You can't create a TicketCoin contract here, it should be mocked.
+    Bonus: If you can, try to mock TicketCoin
     With foundry you have two ways of doing it. Chose the one that you think is a better fit.
     vm.mockCall - https://book.getfoundry.sh/cheatcodes/mock-call?highlight=mock#description
     vm.expectCall - https://book.getfoundry.sh/cheatcodes/expect-call?highlight=expectCall#expectcall
